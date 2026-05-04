@@ -1,0 +1,24 @@
+[[libigc_LTS]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+debug = "false"
+git-tree-sha1 = "5fc79257c748ba0e83fd1283843f49431baaa2f7"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[libigc_LTS.download]]
+    sha256 = "a96962f059ba0e37eaa6889d152a2c5e0a379e74d5a2ba9839e2225c324ce3a1"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_LTS_jll.jl/releases/download/libigc_LTS-v2.11.29+0/libigc_LTS.v2.11.29.x86_64-linux-gnu-cxx11-debug+false.tar.gz"
+[[libigc_LTS]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+debug = "true"
+git-tree-sha1 = "186a36d2babe1c55001b6a83f74f76124d7954b9"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[libigc_LTS.download]]
+    sha256 = "0cc24742c3c1ecf76d02e6c0d4c8e75bc08cfd587f191d1df4f8a2f2c4bd2a29"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_LTS_jll.jl/releases/download/libigc_LTS-v2.11.29+0/libigc_LTS.v2.11.29.x86_64-linux-gnu-cxx11-debug+true.tar.gz"
